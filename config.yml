@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://aliwister.github.io" 
+title: Ali Al Lawati
 theme: PaperMod
 
 enableInlineShortcodes: true
