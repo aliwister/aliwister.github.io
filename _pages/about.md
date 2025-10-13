@@ -1,56 +1,80 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a fourth-year **Ph.D.** student in [IST](https://ist.psu.edu) at [Penn State](https://www.psu.edu/), advised by Prof. [Suhang Wang](https://suhangwang.ist.psu.edu/).  
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I also received my **M.S.** and **B.S. (Honors)** in [Computer Science](https://eecs.psu.edu) at [Penn State](https://www.psu.edu/). 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research interests include:  
+**Graph Learning**, **LLM RAG Methdologies**, **LLM/VLM RAG Security**, **Geospatial Reasoning**.  
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Please reach out to aha112 at psu dot edu for research collaboration. 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## 📰 News
+- **08/2025** — Two papers accepted at EMNLP 2025 Findings, including Graph-based RAG ICL Selection for Molecular Learning [[🔗 Link](https://arxiv.org/abs/2502.05414)]
+- **06/2025** — Started as an **Applied Scientist Intern** at Amazon, Seattle. 
+- **01/2025** — Presented accepted poster at COLING 2025 [[🔗 Link](https://arxiv.org/abs/2501.03166)]. 
+- **11/2024** — A paper accepted at COLING 2025. We introduce self-correcting iterative prompting, used to generated dataset for SQL2Text. We also  demonstrate and benchmark a graph-based RAG ICL selection mechanism [[🔗 Link](https://arxiv.org/abs/2404.08068)]
+- **11/2024** — Gave an invited SLM talk at [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/) [[📑 Slides]](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)  
+- **10/2024** — Presented accepted work at SigSpatial 2024 [[🔗 Link](https://arxiv.org/abs/2404.08068)]
+- **11/2024** — A paper accepted at SigSpatial 2024. We introduce an intuitive encoder-decoder mechanism with attention to learn previous state using graph-based embeddings, used to learn and generate long-horizon trajectories using very few samples [[🔗 Link](https://arxiv.org/abs/2404.08068)].
+- **10/2023** — Presented accepted workshop paper on trajectory generation using a VAE-based approach [[📄 Paper](https://arxiv.org/abs/2401.05421)] 
+- **09/2023** — Visiting Intern at L3S, Hanover, Germany  
+- **08/2022** — Began Ph.D. at Penn State University  
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+---
 
-**Markdown generator**
+# 📄 Publications  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+### 📝 Pre-prints
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### 🎤 Conference Papers (Since 2022)
+
++ **GAMIC: Graph-Aligned Molecular In-context Learning for Molecule Analysis via LLMs** *(EMNLP'25 Finidings)*
+   **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
+   [[📄 Paper](https://arxiv.org/abs/2502.05414)][[💻 GitHub](https://github.com/aliwister/mol-icl)]
+
++ **Chain-of-Interactions: Multi-step Iterative ICL Framework for Abstractive Task-Oriented Dialogue Summarization of Conversational AI Interactions** *(EMNLP'25 Finidings)*
+   Jason Lucas, John Chen, **Ali AL-Lawati**, Mahjabin Nahar, Mahnoosh Mehrabani 
+   [[📄 Paper](https://openreview.net/pdf?id=3kg0vMinj6)]
+
++ **Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text** *(COLING 2025)*  
+   **Ali Al-Lawati**, Jason Lucas, Prasenjit Mitra
+   [[📄 Paper](https://arxiv.org/abs/2404.08068)][[💻 GitHub](https://github.com/aliwister/ast-icl)]
+
++ **WildGraph: Realistic Long-Horizon Trajectory Generation with Limited Sample Size** *(Sigspatial 2024)*  
+   **Ali Al-Lawati**, Elsayed Eshra, Prasenjit Mitra 
+   [[📄 Paper](https://arxiv.org/abs/2404.08068)][[💻 GitHub](https://github.com/aliwister/wildgraph)]
+
++ **WildGEN: Long-horizon Trajectory Generation for Wildlife** *(CIKM 2023 InfoWild)*  
+   **Ali Al-Lawati**, Elsayed Eshra, Prasenjit Mitra 
+   [[📄 Workshop Paper](https://arxiv.org/abs/2401.05421)]
+
+---
+
+
+## 📚 Teaching
+- Teaching Assistant — **DS 340W: Applied Data Science**, PSU, Fall 2025  
+- Teaching Assistant — **DS/CMPSC 442: Artificial Intelligence**, PSU, Spring 2025  
+- Teaching Assistant — **DS 410: Data Analytics at Scale**, PSU, Fall 2024  
+- Teaching Assistant — **IST 402: Emerging Technologies: Data and AI Colonialism**, PSU, Spring 2024  
+- Teaching Assistant — **IST 402: Emerging Technologies: The Question Concerning Technology**, PSU, Fall 2023  
+
+---
+
+## 🤝 Service
+- **Reviewer** — KDD, RecSys, SDM, TIST  
+
+---

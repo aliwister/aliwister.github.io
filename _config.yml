@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Ali Al-Lawati's Homepage"
 title_separator          : "-"
 name                     : &name "Ali Al-Lawati"
@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Ali Al-Lawati"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Experienced technologist, enterpeneur, and AI/NLP researcher"
+  location         : "University Park, PA"
   employer         : "Penn State University"
   uri              : # URL
   email            : "" 
