@@ -24,11 +24,11 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 - **06/2025** — Started as an **Applied Scientist Intern** at Amazon, Seattle. 
 - **01/2025** — Presented accepted poster at COLING 2025 [[🔗 Link](https://arxiv.org/abs/2501.03166)]. 
 - **11/2024** — A paper accepted at COLING 2025. We introduce self-correcting iterative prompting, used to generated dataset for SQL2Text. We also  demonstrate and benchmark a graph-based RAG ICL selection mechanism [[🔗 Link](https://arxiv.org/abs/2404.08068)]
-- **11/2024** — Gave an invited SLM talk at [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/) [[📑 Slides]](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)  
+- **11/2024** — Gave an invited talk on WildGraph at [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/) [[📑 Slides]](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)  
 - **10/2024** — Presented accepted work at SigSpatial 2024 [[🔗 Link](https://arxiv.org/abs/2404.08068)]
 - **11/2024** — A paper accepted at SigSpatial 2024. We introduce an intuitive encoder-decoder mechanism with attention to learn previous state using graph-based embeddings, used to learn and generate long-horizon trajectories using very few samples [[🔗 Link](https://arxiv.org/abs/2404.08068)].
 - **10/2023** — Presented accepted workshop paper on trajectory generation using a VAE-based approach [[📄 Paper](https://arxiv.org/abs/2401.05421)] 
-- **09/2023** — Visiting Intern at L3S, Hanover, Germany  
+- **05/2023** — Visiting Intern at L3S, Hanover, Germany  
 - **08/2022** — Began Ph.D. at Penn State University  
 
 ---
