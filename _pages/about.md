@@ -20,6 +20,7 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ## 📰 News
+- **10/2025** — Authored the edge-privacy section in a new survey on SLM-LLM Collaboration [[🔗 Link](https://arxiv.org/abs/2510.13890)]. 
 - **08/2025** — Two papers accepted at EMNLP 2025 Findings, including Graph-based RAG ICL Selection for Molecular Learning [[🔗 Link](https://arxiv.org/abs/2502.05414)]
 - **06/2025** — Started as an **Applied Scientist Intern** at Amazon, Seattle. 
 - **01/2025** — Presented accepted poster at COLING 2025 [[🔗 Link](https://arxiv.org/abs/2501.03166)]. 
