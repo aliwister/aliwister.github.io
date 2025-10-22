@@ -53,7 +53,7 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 
 + **Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text** *(COLING 2025)*  
    **Ali Al-Lawati**, Jason Lucas, Prasenjit Mitra
-   [[📄 Paper](https://arxiv.org/abs/2404.08068)][[💻 GitHub](https://github.com/aliwister/ast-icl)]
+   [[📄 Paper](https://arxiv.org/abs/2501.03166)][[💻 GitHub](https://github.com/aliwister/ast-icl)]
 
 + **WildGraph: Realistic Long-Horizon Trajectory Generation with Limited Sample Size** *(Sigspatial 2024)*  
    **Ali Al-Lawati**, Elsayed Eshra, Prasenjit Mitra 
