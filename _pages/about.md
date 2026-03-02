@@ -13,13 +13,15 @@ I am a fourth-year **Ph.D.** student in [IST](https://ist.psu.edu) at [Penn Stat
 I also received my **M.S.** and **B.S. (Honors)** in [Computer Science](https://eecs.psu.edu) at [Penn State](https://www.psu.edu/). 
 
 My research interests include:  
-**Graph Learning**, **LLM RAG Methdologies**, **LLM/VLM RAG Security**, **Geospatial Reasoning**.  
+**Multi-Agent Systems**, **Retrieval-Augmented Generation**, **LLM/VLM Safety**.  
 
 Please reach out to aha112 at psu dot edu for research collaboration. 
 
 ---
 
 ## 📰 News
+- **02/2026** — Our Penn State Team was selected to participate in the Amazon NOVA Challenge . [[🔗 Link](https://www.psu.edu/news/research/story/ist-engineering-students-competing-global-amazon-nova-ai-challenge)]. 
+- **01/2026** — New paper released: **A Systemic Evaluation of Multimodal RAG Privacy**. We evaluate VLM privacy risk to MIA and Retrieval Attacks under novel settings, such as transformed images. [[🔗 Link](https://arxiv.org/abs/2601.17644)]. 
 - **10/2025** — Authored the **Privacy-preserving Cloud–Edge Collaboration** section in a new survey on SLM-LLM Collaboration [[🔗 Link](https://arxiv.org/abs/2510.13890)]. 
 - **08/2025** — Two papers accepted at EMNLP 2025 Findings, including Graph-based RAG ICL Selection for Molecular Learning [[🔗 Link](https://arxiv.org/abs/2502.05414)]
 - **06/2025** — Started as an **Applied Scientist Intern** at Amazon, Seattle. 
@@ -38,7 +40,9 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 
 ### 📝 Pre-prints
 
-
++ **A Systemic Evaluation of Multimodal RAG Privacy** *(arXiv)*
+   **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
+   [[📄 Paper](https://arxiv.org/abs/2601.17644)][[💻 GitHub](https://github.com/aliwister/mrag-attack-eval)]
 ---
 
 ### 🎤 Conference Papers (Since 2022)
