@@ -20,17 +20,17 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ## 📰 News
-- **02/2026** — Our Penn State Team was selected to participate in the Amazon NOVA Challenge . [[🔗 Link](https://www.psu.edu/news/research/story/ist-engineering-students-competing-global-amazon-nova-ai-challenge)]. 
-- **01/2026** — New paper released: **A Systemic Evaluation of Multimodal RAG Privacy**. We evaluate VLM privacy risk to MIA and Retrieval Attacks under novel settings, such as transformed images. [[🔗 Link](https://arxiv.org/abs/2601.17644)]. 
+- **02/2026** — Our Penn State Team was selected to participate in the Amazon NOVA Challenge [[🔗 Link](https://www.psu.edu/news/research/story/ist-engineering-students-competing-global-amazon-nova-ai-challenge)]. 
+- **01/2026** — New paper released: **A Systemic Evaluation of Multimodal RAG Privacy**. We evaluate VLM privacy risk to MIA and Retrieval Attacks under novel settings, such as transformed images [[🔗 Link](https://arxiv.org/abs/2601.17644)]. 
 - **10/2025** — Authored the **Privacy-preserving Cloud–Edge Collaboration** section in a new survey on SLM-LLM Collaboration [[🔗 Link](https://arxiv.org/abs/2510.13890)]. 
-- **08/2025** — Two papers accepted at EMNLP 2025 Findings, including Graph-based RAG ICL Selection for Molecular Learning [[🔗 Link](https://arxiv.org/abs/2502.05414)]
+- **08/2025** — Two papers accepted at EMNLP 2025 Findings, including Graph-based RAG ICL Selection for Molecular Learning [[🔗 Link](https://arxiv.org/abs/2502.05414)].
 - **06/2025** — Started as an **Applied Scientist Intern** at Amazon, Seattle. 
 - **01/2025** — Presented accepted poster at COLING 2025 [[🔗 Link](https://arxiv.org/abs/2501.03166)]. 
-- **11/2024** — A paper accepted at COLING 2025. We introduce self-correcting iterative prompting, used to generated dataset for SQL2Text. We also  demonstrate and benchmark a graph-based RAG ICL selection mechanism [[🔗 Link](https://arxiv.org/abs/2404.08068)]
-- **11/2024** — Gave an invited talk on WildGraph at [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/) [[📑 Slides]](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)  
-- **10/2024** — Presented accepted work at SigSpatial 2024 [[🔗 Link](https://arxiv.org/abs/2404.08068)]
+- **11/2024** — A paper accepted at COLING 2025. We introduce self-correcting iterative prompting, used to generated dataset for SQL2Text. We also  demonstrate and benchmark a graph-based RAG ICL selection mechanism [[🔗 Link](https://arxiv.org/abs/2404.08068)].
+- **11/2024** — Gave an invited talk on WildGraph at [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/) [[📑 Slides]](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)  .
+- **10/2024** — Presented accepted work at SigSpatial 2024 [[🔗 Link](https://arxiv.org/abs/2404.08068)].
 - **11/2024** — A paper accepted at SigSpatial 2024. We introduce an intuitive encoder-decoder mechanism with attention to learn previous state using graph-based embeddings, used to learn and generate long-horizon trajectories using very few samples [[🔗 Link](https://arxiv.org/abs/2404.08068)].
-- **10/2023** — Presented accepted workshop paper on trajectory generation using a VAE-based approach [[📄 Paper](https://arxiv.org/abs/2401.05421)] 
+- **10/2023** — Presented accepted workshop paper on trajectory generation using a VAE-based approach [[📄 Paper](https://arxiv.org/abs/2401.05421)]. 
 - **05/2023** — Visiting Intern at L3S, Hanover, Germany  
 - **08/2022** — Began Ph.D. at Penn State University  
 
