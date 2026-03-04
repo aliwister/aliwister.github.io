@@ -40,9 +40,15 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 
 ### 📝 Pre-prints
 
++ **BLUFF: Benchmarking in Low-resoUrce Languages for detecting Falsehoods and Fake news** *(arXiv)*
+   Jason Lucas, Matt Murtagh-White, Adaku Uchendu, **Ali Al-Lawati**, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee  
+   [[📄 Paper](https://arxiv.org/abs/2603.00634)][[💻 GitHub](https://jsl5710.github.io/BLUFF)]
+
+
 + **A Systemic Evaluation of Multimodal RAG Privacy** *(arXiv)*
    **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
    [[📄 Paper](https://arxiv.org/abs/2601.17644)][[💻 GitHub](https://github.com/aliwister/mrag-attack-eval)]
+
 ---
 
 ### 🎤 Conference Papers (Since 2022)
