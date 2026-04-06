@@ -20,6 +20,7 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ## 📰 News
+- **04/2026** — Two papers accepted to ACL 2026. 
 - **02/2026** — Our Penn State Team was selected to participate in the Amazon NOVA Trusted Software Agents Challenge [[🔗 Link](https://www.psu.edu/news/research/story/ist-engineering-students-competing-global-amazon-nova-ai-challenge)]. 
 - **01/2026** — New paper released: **A Systemic Evaluation of Multimodal RAG Privacy**. We evaluate VLM privacy risk to MIA and Retrieval Attacks under novel settings, such as transformed images [[🔗 Link](https://arxiv.org/abs/2601.17644)]. 
 - **10/2025** — Authored the **Privacy-preserving Cloud–Edge Collaboration** section in a new survey on SLM-LLM Collaboration [[🔗 Link](https://arxiv.org/abs/2510.13890)]. 
