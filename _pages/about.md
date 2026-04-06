@@ -45,21 +45,19 @@ Please reach out to aha112 at psu dot edu for research collaboration.
    Jason Lucas, Matt Murtagh-White, Adaku Uchendu, **Ali Al-Lawati**, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee  
    [[📄 Paper](https://arxiv.org/abs/2603.00634)][[💻 GitHub](https://jsl5710.github.io/BLUFF)]
 
-
-+ **A Systemic Evaluation of Multimodal RAG Privacy** *(arXiv)*
-   **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
-   [[📄 Paper](https://arxiv.org/abs/2601.17644)][[💻 GitHub](https://github.com/aliwister/mrag-attack-eval)]
-
 ---
 
 ### 🎤 Conference Papers (Since 2022)
++ **A Systemic Evaluation of Multimodal RAG Privacy** *(ACL'26 Findings (to appear))*
+   **Ali AL-Lawati**, Suhang Wang  
+   [[📄 Paper](https://arxiv.org/abs/2601.17644)][[💻 GitHub](https://github.com/aliwister/mrag-attack-eval)]
 
 + **GAMIC: Graph-Aligned Molecular In-context Learning for Molecule Analysis via LLMs** *(EMNLP'25 Findings)*
    **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
    [[📄 Paper](https://aclanthology.org/2025.findings-emnlp.996)][[💻 GitHub](https://github.com/aliwister/mol-icl)]
 
 + **Chain-of-Interactions: Multi-step Iterative ICL Framework for Abstractive Task-Oriented Dialogue Summarization of Conversational AI Interactions** *(EMNLP'25 Findings)*
-   Jason Lucas, John Chen, **Ali AL-Lawati**, Mahjabin Nahar, Mahnoosh Mehrabani 
+   Jason Lucas, **Ali AL-Lawati**, John Chen, Mahjabin Nahar, Mahnoosh Mehrabani 
    [[📄 Paper](https://aclanthology.org/2025.findings-emnlp.191)]
 
 + **Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text** *(COLING 2025)*  
