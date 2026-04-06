@@ -60,15 +60,15 @@ Please reach out to aha112 at psu dot edu for research collaboration.
    Jason Lucas, **Ali AL-Lawati**, John Chen, Mahjabin Nahar, Mahnoosh Mehrabani 
    [[📄 Paper](https://aclanthology.org/2025.findings-emnlp.191)]
 
-+ **Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text** *(COLING 2025)*  
++ **Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text** *(COLING'25)*  
    **Ali Al-Lawati**, Jason Lucas, Prasenjit Mitra
    [[📄 Paper](https://arxiv.org/abs/2501.03166)][[💻 GitHub](https://github.com/aliwister/ast-icl)]
 
-+ **WildGraph: Realistic Long-Horizon Trajectory Generation with Limited Sample Size** *(Sigspatial 2024)*  
++ **WildGraph: Realistic Long-Horizon Trajectory Generation with Limited Sample Size** *(Sigspatial'24)*  
    **Ali Al-Lawati**, Elsayed Eshra, Prasenjit Mitra 
    [[📄 Paper](https://arxiv.org/abs/2404.08068)][[💻 GitHub](https://github.com/aliwister/wildgraph)]
 
-+ **WildGEN: Long-horizon Trajectory Generation for Wildlife** *(CIKM 2023 InfoWild)*  
++ **WildGEN: Long-horizon Trajectory Generation for Wildlife** *(CIKM'23 InfoWild)*  
    **Ali Al-Lawati**, Elsayed Eshra, Prasenjit Mitra 
    [[📄 Workshop Paper](https://arxiv.org/abs/2401.05421)]
 
@@ -85,6 +85,6 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ## 🤝 Service
-- **Reviewer** — KDD, RecSys, SDM, TIST  
+- **Reviewer** — KDD, RecSys, SDM, TIST, ARR, COLM  
 
 ---
