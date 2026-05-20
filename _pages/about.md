@@ -20,7 +20,10 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ## 📰 News
+- **05/2026** — Paper accepted at KDD 2026. 
+- **05/2026** — Position Paper accepted to ICML 2026 [[🔗 Link](https://arxiv.org/abs/2605.19999)]. 
 - **04/2026** — Two papers accepted to ACL 2026. 
+- **03/2026** — Will be interning as an AI Engineer at Capital One, San Jose this Summer.
 - **02/2026** — Our Penn State Team was selected to participate in the Amazon NOVA Trusted Software Agents Challenge [[🔗 Link](https://www.psu.edu/news/research/story/ist-engineering-students-competing-global-amazon-nova-ai-challenge)]. 
 - **01/2026** — New paper released: **A Systemic Evaluation of Multimodal RAG Privacy**. We evaluate VLM privacy risk to MIA and Retrieval Attacks under novel settings, such as transformed images [[🔗 Link](https://arxiv.org/abs/2601.17644)]. 
 - **10/2025** — Authored the **Privacy-preserving Cloud–Edge Collaboration** section in a new survey on SLM-LLM Collaboration [[🔗 Link](https://arxiv.org/abs/2510.13890)]. 
@@ -41,6 +44,11 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 
 ### 📝 Pre-prints
 
++ **Position: LLM Benchmark Datasets Should Be Contamination-Resistant** *(arXiv)*
+   **Ali AL-Lawati** et al  
+   [[📄 Paper](https://arxiv.org/abs/2605.12856)][[💻 GitHub](https://github.com/aliwister/bot-mod)]
+
+
 + **BLUFF: Benchmarking in Low-resoUrce Languages for detecting Falsehoods and Fake news** *(arXiv)*
    Jason Lucas, Matt Murtagh-White, Adaku Uchendu, **Ali Al-Lawati**, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee  
    [[📄 Paper](https://arxiv.org/abs/2603.00634)][[💻 GitHub](https://jsl5710.github.io/BLUFF)]
@@ -48,9 +56,19 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 ---
 
 ### 🎤 Conference Papers (Since 2022)
-+ **A Systemic Evaluation of Multimodal RAG Privacy** *(ACL'26 Findings (to appear))*
+
++ **Position: LLM Benchmark Datasets Should Be Contamination-Resistant** *(ICML'26 (to appear))*
+   **Ali AL-Lawati**, Jason Lucas, Dongwon Lee, Suhang Wang  
+   [[📄 Paper](https://arxiv.org/abs/2605.19999)]
+
+
++ **Do Multimodal RAG Systems Leak Data? A Comprehensive Evaluation of Membership Inference and Image Caption Retrieval Attacks** *(ACL'26 Findings (to appear))*
    **Ali AL-Lawati**, Suhang Wang  
    [[📄 Paper](https://arxiv.org/abs/2601.17644)][[💻 GitHub](https://github.com/aliwister/mrag-attack-eval)]
+
++ **DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects** *(ACL'26 (to appear))
+   Jason Lucas, **Ali AL-Lawati**, Matt Murtagh, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee 
+   [[📄 Paper](https://arxiv.org/pdf/2604.05318)][[💻 GitHub](hhttps://github.com/jsl5710/dia-harm)]
 
 + **GAMIC: Graph-Aligned Molecular In-context Learning for Molecule Analysis via LLMs** *(EMNLP'25 Findings)*
    **Ali AL-Lawati**, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang  
@@ -76,6 +94,7 @@ Please reach out to aha112 at psu dot edu for research collaboration.
 
 
 ## 📚 Teaching
+- Teaching Assistant — **DS 340W: Applied Data Science**, PSU, Spring 2026  
 - Teaching Assistant — **DS 340W: Applied Data Science**, PSU, Fall 2025  
 - Teaching Assistant — **DS/CMPSC 442: Artificial Intelligence**, PSU, Spring 2025  
 - Teaching Assistant — **DS 410: Data Analytics at Scale**, PSU, Fall 2024  
