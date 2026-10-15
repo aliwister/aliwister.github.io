@@ -1,0 +1,119 @@
+# Fields:
+#   title, authors, venue (badge text), venue_full, year, note (e.g. "to appear")
+#   group: preprint | conference | workshop
+#   selected: true  -> shown when "Selected" filter is on
+#   image: /images/papers/<file>   (optional thumbnail, ~600x360)
+#   tldr: one sentence (optional)
+#   links: list of {name, url}
+# "Ali Al-Lawati" in `authors` is bolded automatically.
+
+- title: "Moltbook Moderation: Uncovering Hidden Intent Through Multi-Turn Dialogue"
+  authors: Ali Al-Lawati, Nafis Tripto, Abolfazl Ansari, Jason Lucas, Suhang Wang, Dongwon Lee
+  venue: arXiv
+  venue_full: arXiv preprint
+  year: 2026
+  group: preprint
+  selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2605.12856" }
+    - { name: Code, url: "https://github.com/aliwister/bot-mod" }
+
+- title: "BLUFF: Benchmarking the Detection of False and Synthetic Content across 58 Low-Resource Languages"
+  authors: Jason Lucas, Matt Murtagh-White, Adaku Uchendu, Ali Al-Lawati, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee
+  venue: arXiv
+  venue_full: arXiv preprint
+  year: 2026
+  group: preprint
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2603.00634" }
+    - { name: Project, url: "https://jsl5710.github.io/BLUFF" }
+
+- title: "Position: LLM Benchmark Datasets Should Be Contamination-Resistant"
+  authors: Ali Al-Lawati, Jason Lucas, Dongwon Lee, Suhang Wang
+  venue: ICML 2026
+  venue_full: International Conference on Machine Learning, Position Paper Track
+  year: 2026
+  note: to appear
+  group: conference
+  selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2605.19999" }
+
+- title: "Do Multimodal RAG Systems Leak Data? A Comprehensive Evaluation of Membership Inference and Image Caption Retrieval Attacks"
+  authors: Ali Al-Lawati, Suhang Wang
+  venue: ACL 2026
+  venue_full: Findings of the Association for Computational Linguistics
+  year: 2026
+  note: to appear
+  group: conference
+  selected: true
+  tldr: We evaluate VLM privacy risk to membership inference and retrieval attacks under novel settings, such as transformed images.
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2601.17644" }
+    - { name: Code, url: "https://github.com/aliwister/mrag-attack-eval" }
+
+- title: "DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects"
+  authors: Jason Lucas, Matt Murtagh, Ali Al-Lawati, Uchendu Uchendu, Adaku Uchendu, Dongwon Lee
+  venue: ACL 2026
+  venue_full: Annual Meeting of the Association for Computational Linguistics
+  year: 2026
+  note: to appear
+  group: conference
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2604.05318" }
+    - { name: Code, url: "https://github.com/jsl5710/dia-harm" }
+
+- title: "GAMIC: Graph-Aligned Molecular In-context Learning for Molecule Analysis via LLMs"
+  authors: Ali Al-Lawati, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang
+  venue: EMNLP 2025
+  venue_full: Findings of Empirical Methods in Natural Language Processing
+  year: 2025
+  group: conference
+  selected: true
+  tldr: Graph-based RAG in-context example selection for molecular learning with LLMs.
+  links:
+    - { name: Paper, url: "https://aclanthology.org/2025.findings-emnlp.996" }
+    - { name: Code, url: "https://github.com/aliwister/mol-icl" }
+
+- title: "Chain-of-Interactions: Multi-step Iterative ICL Framework for Abstractive Task-Oriented Dialogue Summarization of Conversational AI Interactions"
+  authors: Jason Lucas, Ali Al-Lawati, John Chen, Mahjabin Nahar, Mahnoosh Mehrabani
+  venue: EMNLP 2025
+  venue_full: Findings of Empirical Methods in Natural Language Processing
+  year: 2025
+  group: conference
+  links:
+    - { name: Paper, url: "https://aclanthology.org/2025.findings-emnlp.191" }
+
+- title: "Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text"
+  authors: Ali Al-Lawati, Jason Lucas, Prasenjit Mitra
+  venue: COLING 2025
+  venue_full: International Conference on Computational Linguistics
+  year: 2025
+  group: conference
+  selected: true
+  tldr: Self-correcting iterative prompting builds a SQL2Text dataset, and a graph-based RAG ICL selection mechanism is benchmarked on it.
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2501.03166" }
+    - { name: Code, url: "https://github.com/aliwister/ast-icl" }
+
+- title: "WildGraph: Realistic Long-Horizon Trajectory Generation with Limited Sample Size"
+  authors: Ali Al-Lawati, Elsayed Eshra, Prasenjit Mitra
+  venue: SIGSPATIAL 2024
+  venue_full: ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems
+  year: 2024
+  group: conference
+  selected: true
+  tldr: An encoder–decoder with attention over graph-based embeddings generates long-horizon trajectories from very few samples.
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2404.08068" }
+    - { name: Code, url: "https://github.com/aliwister/wildgraph" }
+    - { name: Slides, url: "/files/Allawati_Wildgraph_SigSpatial_2024.pdf" }
+
+- title: "WildGEN: Long-horizon Trajectory Generation for Wildlife"
+  authors: Ali Al-Lawati, Elsayed Eshra, Prasenjit Mitra
+  venue: CIKM 2023 Workshop
+  venue_full: CIKM Workshop on Knowledge Extraction and Management for Wildlife Conservation (InfoWild)
+  year: 2023
+  group: workshop
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2401.05421" }

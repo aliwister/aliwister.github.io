@@ -1,0 +1,47 @@
+interests:
+  - Multi-Agent Systems
+  - Retrieval-Augmented Generation
+  - LLM / VLM Safety
+  - Privacy in Multimodal RAG
+  - In-Context Learning
+
+experience:
+  - date: 2022 – present
+    role: Graduate Researcher
+    org: Penn State, College of IST
+    place: Advised by Prof. Suhang Wang
+  - date: Summer 2026
+    role: AI Engineer Intern
+    org: Capital One
+    place: San Jose, CA
+  - date: Summer 2025
+    role: Applied Scientist Intern
+    org: Amazon
+    place: Seattle, WA
+  - date: Summer 2023
+    role: Visiting Research Intern
+    org: L3S Research Center
+    place: Hannover, Germany
+
+education:
+  - date: 2022 – present
+    degree: Ph.D., Information Sciences and Technology
+    org: The Pennsylvania State University
+  - date:
+    degree: M.S., Computer Science
+    org: The Pennsylvania State University
+  - date:
+    degree: B.S. (Honors), Computer Science
+    org: The Pennsylvania State University
+
+teaching:
+  - { course: "DS 340W: Applied Data Science", term: Spring 2026 }
+  - { course: "DS 340W: Applied Data Science", term: Fall 2025 }
+  - { course: "DS/CMPSC 442: Artificial Intelligence", term: Spring 2025 }
+  - { course: "DS 410: Data Analytics at Scale", term: Fall 2024 }
+  - { course: "IST 402: Emerging Technologies: Data and AI Colonialism", term: Spring 2024 }
+  - { course: "IST 402: Emerging Technologies: The Question Concerning Technology", term: Fall 2023 }
+
+service:
+  - role: Reviewer
+    venues: KDD, RecSys, SDM, TIST, ARR, COLM
