@@ -1,8 +1,10 @@
 # Newest first. `text` is Markdown. Items past `news_visible` in _config.yml
 # fold under "Older news".
 
+- date: 10/2026
+  text: "Two new co-first-author papers with Elsayed Eshra: **Diffusion-based Prompt Mapping for LLM Evaluation** (under submission) and **Quantifying Behavioral Tails in Black-Box Language Models**."
 - date: 05/2026
-  text: Paper accepted at **KDD 2026**.
+  text: "**BLUFF**, a benchmark for detecting false and synthetic content across 58 low-resource languages, accepted at **KDD 2026**. [[Paper](https://arxiv.org/abs/2603.00634)]"
 - date: 05/2026
   text: Position paper accepted to **ICML 2026**. [[Paper](https://arxiv.org/abs/2605.19999)]
 - date: 04/2026

@@ -5,7 +5,22 @@
 #   image: /images/papers/<file>   (optional thumbnail, ~600x360)
 #   tldr: one sentence (optional)
 #   links: list of {name, url}
-# "Ali Al-Lawati" in `authors` is bolded automatically.
+# "Ali Al-Lawati" in `authors` is bolded automatically. Mark equal contribution with †.
+
+- title: "Diffusion-based Prompt Mapping for LLM Evaluation"
+  authors: Ali Al-Lawati†, Elsayed Eshra†, Dongwon Lee, Suhang Wang
+  venue: Preprint
+  venue_full: Under submission
+  year: 2026
+  group: preprint
+  selected: true
+
+- title: "Quantifying Behavioral Tails in Black-Box Language Models"
+  authors: Elsayed Eshra†, Ali Al-Lawati†, Dongwon Lee, Suhang Wang
+  venue: Preprint
+  year: 2026
+  group: preprint
+  selected: true
 
 - title: "Moltbook Moderation: Uncovering Hidden Intent Through Multi-Turn Dialogue"
   authors: Ali Al-Lawati, Nafis Tripto, Abolfazl Ansari, Jason Lucas, Suhang Wang, Dongwon Lee
@@ -17,16 +32,6 @@
   links:
     - { name: Paper, url: "https://arxiv.org/abs/2605.12856" }
     - { name: Code, url: "https://github.com/aliwister/bot-mod" }
-
-- title: "BLUFF: Benchmarking the Detection of False and Synthetic Content across 58 Low-Resource Languages"
-  authors: Jason Lucas, Matt Murtagh-White, Adaku Uchendu, Ali Al-Lawati, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee
-  venue: arXiv
-  venue_full: arXiv preprint
-  year: 2026
-  group: preprint
-  links:
-    - { name: Paper, url: "https://arxiv.org/abs/2603.00634" }
-    - { name: Project, url: "https://jsl5710.github.io/BLUFF" }
 
 - title: "Position: LLM Benchmark Datasets Should Be Contamination-Resistant"
   authors: Ali Al-Lawati, Jason Lucas, Dongwon Lee, Suhang Wang
@@ -62,6 +67,16 @@
   links:
     - { name: Paper, url: "https://arxiv.org/abs/2604.05318" }
     - { name: Code, url: "https://github.com/jsl5710/dia-harm" }
+
+- title: "BLUFF: Benchmarking the Detection of False and Synthetic Content across 58 Low-Resource Languages"
+  authors: Jason Lucas, Matt Murtagh-White, Adaku Uchendu, Ali Al-Lawati, Michiharu Yamashita, Dominik Macko, Ivan Srba, Robert Moro, Dongwon Lee
+  venue: KDD 2026
+  venue_full: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  year: 2026
+  group: conference
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2603.00634" }
+    - { name: Project, url: "https://jsl5710.github.io/BLUFF" }
 
 - title: "GAMIC: Graph-Aligned Molecular In-context Learning for Molecule Analysis via LLMs"
   authors: Ali Al-Lawati, Jason S Lucas, Zhiwei Zhang, Prasenjit Mitra, Suhang Wang

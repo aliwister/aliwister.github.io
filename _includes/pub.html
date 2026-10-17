@@ -14,7 +14,7 @@
     <p class="pub-authors">{{ p.authors | replace: site.author.name, include.me }}</p>
     <p class="pub-venue">
       {% if p.image %}<span class="venue venue-{{ p.group }}">{{ p.venue }}</span>{% endif %}
-      <em>{{ p.venue_full }}</em>{% if p.note %} <span class="note">({{ p.note }})</span>{% endif %}
+      {% if p.venue_full %}<em>{{ p.venue_full }}</em>{% endif %}{% if p.note %} <span class="note">({{ p.note }})</span>{% endif %}
     </p>
     {% if p.tldr %}<p class="pub-tldr">{{ p.tldr }}</p>{% endif %}
     {% if p.links %}
