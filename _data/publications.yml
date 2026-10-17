@@ -33,6 +33,16 @@
     - { name: Paper, url: "https://arxiv.org/abs/2605.12856" }
     - { name: Code, url: "https://github.com/aliwister/bot-mod" }
 
+- title: "A Survey on Collaborating Small and Large Language Models for Performance, Cost-Effectiveness, Cloud-Edge Privacy, and Trustworthiness"
+  authors: Fali Wang, Jihai Chen, Shuhua Yang, Ali Al-Lawati, Linli Tang, Hui Liu, Suhang Wang
+  venue: arXiv
+  venue_full: arXiv preprint
+  year: 2025
+  group: preprint
+  tldr: I authored the privacy-preserving cloud–edge collaboration section.
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2510.13890" }
+
 - title: "Position: LLM Benchmark Datasets Should Be Contamination-Resistant"
   authors: Ali Al-Lawati, Jason Lucas, Dongwon Lee, Suhang Wang
   venue: ICML 2026

@@ -3,6 +3,8 @@
 
 - date: 10/2026
   text: "Two new co-first-author papers with Elsayed Eshra: **Diffusion-based Prompt Mapping for LLM Evaluation** (under submission) and **Quantifying Behavioral Tails in Black-Box Language Models**."
+- date: 09/2026
+  text: "Released **ali-llm v0.1**, a 2B-parameter language model trained from scratch on English written for children, in curriculum order from pre-K through grade 5. [[🤗 Model](https://huggingface.co/aliwister/ali-llm-v0.1)]"
 - date: 05/2026
   text: "**BLUFF**, a benchmark for detecting false and synthetic content across 58 low-resource languages, accepted at **KDD 2026**. [[Paper](https://arxiv.org/abs/2603.00634)]"
 - date: 05/2026
