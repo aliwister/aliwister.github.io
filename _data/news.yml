@@ -23,16 +23,12 @@
   text: Two papers accepted at **EMNLP 2025 Findings**, including graph-based RAG ICL selection for molecular learning. [[Paper](https://arxiv.org/abs/2502.05414)]
 - date: 06/2025
   text: Started as an **Applied Scientist Intern at Amazon**, Seattle.
-- date: 01/2025
-  text: Presented our poster at **COLING 2025**. [[Paper](https://arxiv.org/abs/2501.03166)]
 - date: 11/2024
   text: Paper accepted at **COLING 2025**. We introduce self-correcting iterative prompting to generate a SQL2Text dataset, and benchmark a graph-based RAG ICL selection mechanism. [[Paper](https://arxiv.org/abs/2501.03166)]
 - date: 11/2024
   text: Invited talk on WildGraph at the [Interdisciplinary Scientific Computing Laboratory](https://romit-maulik.github.io/). [[Slides](/files/Allawati_Wildgraph_SigSpatial_2024.pdf)]
 - date: 10/2024
-  text: Presented our work at **SIGSPATIAL 2024**. [[Paper](https://arxiv.org/abs/2404.08068)]
-- date: 11/2024
-  text: Paper accepted at **SIGSPATIAL 2024**. An encoder–decoder with attention over graph-based embeddings learns and generates long-horizon trajectories from very few samples. [[Paper](https://arxiv.org/abs/2404.08068)]
+  text: Presented **WildGraph** at **SIGSPATIAL 2024**. An encoder–decoder with attention over graph-based embeddings learns and generates long-horizon trajectories from very few samples. [[Paper](https://arxiv.org/abs/2404.08068)]
 - date: 10/2023
   text: Presented a workshop paper on VAE-based trajectory generation. [[Paper](https://arxiv.org/abs/2401.05421)]
 - date: 05/2023
