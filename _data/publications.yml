@@ -7,13 +7,16 @@
 #   links: list of {name, url}
 # "Ali Al-Lawati" in `authors` is bolded automatically. Mark equal contribution with †.
 
-- title: "Diffusion-based Prompt Mapping for LLM Evaluation"
+- title: "Diffusion Language Models for Perplexity-Aware Black-Box Attacks"
   authors: Ali Al-Lawati†, Elsayed Eshra†, Dongwon Lee, Suhang Wang
-  venue: Preprint
-  venue_full: Under submission
+  venue: arXiv
+  venue_full: arXiv preprint
+  note: under submission
   year: 2026
   group: preprint
   selected: true
+  links:
+    - { name: Paper, url: "https://arxiv.org/abs/2610.31558" }
 
 - title: "Quantifying Behavioral Tails in Black-Box Language Models"
   authors: Elsayed Eshra†, Ali Al-Lawati†, Dongwon Lee, Suhang Wang
@@ -25,8 +28,8 @@
   links:
     - { name: Paper, url: "https://arxiv.org/abs/2609.33638" }
 
-- title: "Moltbook Moderation: Uncovering Hidden Intent Through Multi-Turn Dialogue"
-  authors: Ali Al-Lawati, Nafis Tripto, Abolfazl Ansari, Jason Lucas, Suhang Wang, Dongwon Lee
+- title: "Moderation by Interrogation: Uncovering Concealed Intent in Agent Social Networks"
+  authors: Ali Al-Lawati, Nafis Tripto, Abolfazl Ansari, Fali Wang, Jason Lucas, Suhang Wang, Dongwon Lee
   venue: arXiv
   venue_full: arXiv preprint
   year: 2026
@@ -34,7 +37,7 @@
   selected: true
   links:
     - { name: Paper, url: "https://arxiv.org/abs/2605.12856" }
-    - { name: Code, url: "https://github.com/aliwister/bot-mod" }
+    - { name: Code, url: "https://github.com/aliwister/Bot-Mod" }
 
 - title: "A Survey on Collaborating Small and Large Language Models for Performance, Cost-Effectiveness, Cloud-Edge Privacy, and Trustworthiness"
   authors: Fali Wang, Jihai Chen, Shuhua Yang, Ali Al-Lawati, Linli Tang, Hui Liu, Suhang Wang
