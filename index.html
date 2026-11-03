@@ -83,8 +83,9 @@ layout: default
   </div>
   <p class="muted small">† equal contribution. Full list on <a href="{{ a.scholar }}">Google Scholar</a>.</p>
 
-  {% assign preprints = site.data.publications | where: "group", "preprint" %}
-  {% assign reviewed = site.data.publications | where_exp: "p", "p.group != 'preprint'" %}
+  {% assign papers = site.papers | sort: "order" %}
+  {% assign preprints = papers | where: "group", "preprint" %}
+  {% assign reviewed = papers | where_exp: "p", "p.group != 'preprint'" %}
   {% assign groups = reviewed | group_by: "year" %}
 
   {% if preprints.size > 0 %}

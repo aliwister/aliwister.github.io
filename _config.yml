@@ -1,5 +1,7 @@
 title: Ali Al-Lawati
-description: Ph.D. student at Penn State IST working on multi-agent systems, retrieval-augmented generation, and LLM/VLM safety.
+# <title> of the home page; other pages use "<page title> · title"
+seo_title: Ali Al-Lawati | AI Safety Researcher, Penn State
+description: Ali Al-Lawati, Ph.D. student at Penn State, researches AI safety, uncovering hidden risks of language models and LLM agents, privacy leaks and safer pretraining.
 url: https://aliwister.github.io
 baseurl: ""
 lang: en
@@ -15,9 +17,29 @@ author:
   email_domain: psu.edu
   scholar: https://scholar.google.com/citations?user=gv4prg0AAAAJ
   github: aliwister
+  # Other profiles of the same person, listed as schema.org sameAs (helps search engines link them)
+  profiles:
+    - https://scholar.google.com/citations?user=gv4prg0AAAAJ
+    - https://github.com/aliwister
+    - https://huggingface.co/aliwister
+
+# Paste the content value of Google Search Console's HTML-tag verification here
+google_site_verification:
 
 # Number of news items shown before the "Older news" fold
 news_visible: 8
+
+collections:
+  papers:
+    output: true
+    permalink: /papers/:name/
+
+defaults:
+  - scope: { type: papers }
+    values: { layout: paper }
+
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 exclude:

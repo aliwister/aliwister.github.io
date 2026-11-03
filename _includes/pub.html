@@ -15,11 +15,13 @@
     <p class="pub-venue">
       {% if p.image %}<span class="venue venue-{{ p.group }}">{{ p.venue }}</span>{% endif %}
       {% if p.venue_full %}<em>{{ p.venue_full }}</em>{% endif %}{% if p.note %} <span class="note">({{ p.note }})</span>{% endif %}
+      {% if p.award %}<span class="award">🏆 {{ p.award }}</span>{% endif %}
     </p>
     {% if p.tldr %}<p class="pub-tldr">{{ p.tldr }}</p>{% endif %}
     {% if p.links %}
     <div class="pub-links">
       {% for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.name }}</a>{% endfor %}
+      {% if p.url %}<a href="{{ p.url | relative_url }}">Abstract &amp; BibTeX</a>{% endif %}
     </div>
     {% endif %}
   </div>

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign p = page %}
+{% capture me %}<strong class="me">{{ site.author.name }}</strong>{% endcapture %}
+<article class="paper-page">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a> <span aria-hidden="true">/</span>
+    <a href="{{ '/#publications' | relative_url }}">Publications</a>
+  </nav>
+
+  <div class="paper-badges">
+    <span class="venue venue-{{ p.group }}">{{ p.venue }}</span>
+    {% if p.award %}<span class="award">🏆 {{ p.award }}</span>{% endif %}
+  </div>
+  <h1 class="paper-title">{{ p.title }}</h1>
+  <p class="paper-authors">{{ p.authors | replace: site.author.name, me }}</p>
+  <p class="pub-venue">
+    <em>{{ p.conference | default: p.venue_full }}</em>, {{ p.year }}{% if p.note %} <span class="note">({{ p.note }})</span>{% endif %}
+  </p>
+  {% if p.alt_title %}<p class="muted small">Also on arXiv as <em>{{ p.alt_title }}</em></p>{% endif %}
+
+  <div class="paper-links">
+    {% for l in p.links %}<a class="{% if forloop.first %}btn-primary{% endif %}" href="{{ l.url | relative_url }}">{{ l.name }}</a>{% endfor %}
+    {% if p.pdf %}<a href="{{ p.pdf }}">PDF</a>{% endif %}
+  </div>
+
+  {% if p.tldr %}<p class="paper-tldr"><strong>TL;DR.</strong> {{ p.tldr }}</p>{% endif %}
+
+  <section class="paper-section">
+    <h2>Abstract</h2>
+    <p>{{ p.abstract }}</p>
+  </section>
+
+  <section class="paper-section">
+    <h2>Citation</h2>
+    <div class="bibtex">
+      <button type="button" class="copy-bib">Copy</button>
+      <pre><code>{{ p.bibtex | escape }}</code></pre>
+    </div>
+  </section>
+
+  <p class="paper-back"><a href="{{ '/#publications' | relative_url }}">← All publications by {{ site.author.name }}</a></p>
+</article>

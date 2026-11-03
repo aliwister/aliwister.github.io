@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": {{ site.url | append: "/" | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ site.url | append: "/#person" | jsonify }},
+    "name": {{ site.author.name | jsonify }},
+    "alternateName": ["Ali Al Lawati", "Ali AL-Lawati", "Ali Allawati"],
+    "jobTitle": {{ site.author.role | jsonify }},
+    "affiliation": { "@type": "CollegeOrUniversity", "name": {{ site.author.affiliation | jsonify }} },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": {{ site.author.affiliation | jsonify }} },
+    "url": {{ site.url | append: "/" | jsonify }},
+    "image": {{ site.author.avatar | absolute_url | jsonify }},
+    "knowsAbout": {{ site.data.cv.interests | jsonify }},
+    "sameAs": {{ site.author.profiles | jsonify }}
+  }
+}
+</script>

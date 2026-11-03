@@ -14,6 +14,17 @@
     a.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
   });
 
+  // Copy BibTeX on paper pages
+  document.querySelectorAll('.copy-bib').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var text = b.parentNode.querySelector('code').textContent;
+      navigator.clipboard.writeText(text).then(function () {
+        b.textContent = 'Copied';
+        setTimeout(function () { b.textContent = 'Copy'; }, 1500);
+      });
+    });
+  });
+
   // Publications filter
   var pubs = document.getElementById('publications');
   document.querySelectorAll('.filter button').forEach(function (b) {
