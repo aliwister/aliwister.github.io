@@ -1,0 +1,62 @@
+# Research themes. Each paper in _papers/ lists topic keys in `topics:` (colored chips)
+# and free-form method tags in `tags:` (gray chips). `hue` is the chip color (0-360).
+
+themes:
+  - name: Uncovering hidden risks
+    label: Hidden risks
+    blurb: measuring the rare and concealed failures of language models and LLM agents that standard testing misses
+    topics:
+      - key: tail-risk
+        name: Tail-Risk Estimation
+        desc: estimating how likely rare, severe behaviors are in black-box LLMs
+        hue: 0
+      - key: agent-safety
+        name: Agent Safety
+        desc: uncovering the concealed intent of LLM agents by interrogating them
+        hue: 25
+      - key: reliable-eval
+        name: Reliable Evaluation
+        desc: benchmarks that resist data contamination
+        hue: 270
+      - key: harmful-content
+        name: Harmful Content Detection
+        desc: detecting disinformation and harmful content across dialects and low-resource languages
+        hue: 330
+
+  - name: Privacy and grounded inference
+    label: Privacy & inference
+    blurb: keeping private data private, and helping models use their context to answer accurately
+    topics:
+      - key: privacy
+        name: Privacy
+        desc: how multimodal RAG pipelines and cloud–edge deployments leak private data
+        hue: 165
+      - key: icl
+        name: In-Context Learning
+        desc: choosing and structuring demonstrations so models answer accurately and hallucinate less
+        hue: 210
+
+  - name: Earlier work
+    label: Earlier work
+    blurb: generative models for movement data
+    topics:
+      - key: trajectories
+        name: Trajectory Generation
+        desc: realistic long-horizon wildlife trajectories from very few samples
+        hue: 95
+
+# Order of the gray method chips in the filter bar
+tags:
+  - Black-Box LLMs
+  - Rare-Event Simulation
+  - Diffusion LMs
+  - LLM Agents
+  - Bayesian Inference
+  - RAG
+  - Membership Inference
+  - Benchmarks
+  - Multilingual
+  - Graph Learning
+  - Summarization
+  - Generative Models
+  - Survey

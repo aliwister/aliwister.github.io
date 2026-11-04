@@ -21,6 +21,8 @@
     {% if p.alt_title %}"alternativeHeadline": {{ p.alt_title | jsonify }},{% endif %}
     "abstract": {{ p.abstract | strip_html | jsonify }},
     "datePublished": {{ p.date | date: '%Y-%m-%d' | jsonify }},
+    {% if p.image %}"image": {{ p.image | absolute_url | jsonify }},{% endif %}
+    {% if p.tags %}"keywords": {{ p.tags | jsonify }},{% endif %}
     "inLanguage": "en",
     "isAccessibleForFree": true,
     "url": {{ url | jsonify }},

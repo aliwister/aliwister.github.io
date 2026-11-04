@@ -7,6 +7,10 @@ year: 2025
 date: '2025-01-19'
 order: 11
 group: conference
+short: "SQL2Text"
+image: /images/papers/semantic-captioning-sql2text.webp
+topics: ["icl"]
+tags: ["Graph Learning", "Benchmarks"]
 selected: true
 tldr: Self-correcting iterative prompting builds a SQL2Text dataset, and a graph-based RAG ICL selection mechanism is benchmarked on it.
 arxiv: '2501.03166'

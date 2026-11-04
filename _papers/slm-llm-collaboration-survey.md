@@ -7,6 +7,10 @@ year: 2025
 date: '2025-10-14'
 order: 4
 group: preprint
+short: "SLM–LLM Survey"
+image: /images/papers/slm-llm-collaboration-survey.webp
+topics: ["privacy"]
+tags: ["Survey"]
 tldr: I authored the privacy-preserving cloud–edge collaboration section.
 arxiv: '2510.13890'
 pdf: https://arxiv.org/pdf/2510.13890

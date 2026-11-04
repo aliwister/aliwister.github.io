@@ -8,6 +8,10 @@ year: 2024
 date: '2024-10-29'
 order: 12
 group: conference
+short: "WildGraph"
+image: /images/papers/wildgraph.webp
+topics: ["trajectories"]
+tags: ["Generative Models", "Graph Learning"]
 selected: true
 tldr: An encoder–decoder with attention over graph-based embeddings generates long-horizon trajectories from very few samples.
 arxiv: '2404.08068'

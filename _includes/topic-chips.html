@@ -1,0 +1,5 @@
+{% assign p = include.p %}{% if p.topics or p.tags %}
+<div class="chips">
+  {% for k in p.topics %}{% for th in site.data.topics.themes %}{% for t in th.topics %}{% if t.key == k %}<a class="chip-topic" style="--h: {{ t.hue }}" href="{{ '/' | relative_url }}?topic={{ t.key }}#publications" data-topic="{{ t.key }}">{{ t.name }}</a>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  {% for g in p.tags %}<a class="chip-tag" href="{{ '/' | relative_url }}?tag={{ g | url_encode }}#publications" data-tag="{{ g }}">{{ g }}</a>{% endfor %}
+</div>{% endif %}

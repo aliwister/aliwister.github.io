@@ -7,6 +7,11 @@ year: 2026
 date: '2026-07-01'
 order: 7
 group: conference
+short: "DIA-HARM"
+image: /images/papers/dia-harm.webp
+topics: ["harmful-content"]
+tags: ["Benchmarks", "Multilingual"]
+tldr: "A 195K-sample benchmark across 50 English dialects showing that disinformation detectors degrade on human-written dialectal text, which can disadvantage hundreds of millions of non-SAE speakers."
 award: Best Social Impact Paper
 arxiv: '2604.05318'
 doi: 10.18653/v1/2026.acl-long.144

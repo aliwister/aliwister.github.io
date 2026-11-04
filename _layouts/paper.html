@@ -25,6 +25,14 @@ layout: default
     {% if p.pdf %}<a href="{{ p.pdf }}">PDF</a>{% endif %}
   </div>
 
+  {% include topic-chips.html p=p %}
+
+  {% if p.image %}
+  <figure class="paper-figure">
+    <img src="{{ p.image | replace: '/images/papers/', '/images/papers/full/' | relative_url }}" alt="Overview figure of {{ p.short | default: p.title }}">
+  </figure>
+  {% endif %}
+
   {% if p.tldr %}<p class="paper-tldr"><strong>TL;DR.</strong> {{ p.tldr }}</p>{% endif %}
 
   <section class="paper-section">

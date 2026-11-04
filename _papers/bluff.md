@@ -7,6 +7,11 @@ year: 2026
 date: '2026-08-08'
 order: 8
 group: conference
+short: "BLUFF"
+image: /images/papers/bluff.webp
+topics: ["harmful-content"]
+tags: ["Benchmarks", "Multilingual", "LLM Agents"]
+tldr: "A 202K-sample benchmark for detecting false and synthetic content in 79 languages, where state-of-the-art detectors lose up to 25.3% F1 on low-resource languages."
 arxiv: '2603.00634'
 doi: 10.1145/3770855.3817546
 conference: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining

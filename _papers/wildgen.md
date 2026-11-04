@@ -7,6 +7,11 @@ year: 2023
 date: '2023-10-21'
 order: 13
 group: workshop
+short: "WildGEN"
+image: /images/papers/wildgen.webp
+topics: ["trajectories"]
+tags: ["Generative Models"]
+tldr: "A VAE-based framework that learns the long-horizon movement of wild geese from a sparse set of real trajectories and generates new ones."
 arxiv: '2401.05421'
 conference: CIKM Workshop on Knowledge Extraction and Management for Wildlife Conservation (InfoWild 2023)
 pdf: https://arxiv.org/pdf/2401.05421

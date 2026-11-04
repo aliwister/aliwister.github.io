@@ -7,6 +7,11 @@ year: 2026
 date: '2026-05-13'
 order: 3
 group: preprint
+short: "Bot-Mod"
+image: /images/papers/moderation-by-interrogation.webp
+topics: ["agent-safety"]
+tags: ["LLM Agents", "Bayesian Inference", "Benchmarks"]
+tldr: "Bot-Mod questions an agent before ruling on its post and infers its hidden intent by Bayesian updating over diagnostic probes, beating content-only moderators and LLM judges on the new Molt-Intent dataset."
 selected: true
 arxiv: '2605.12856'
 pdf: https://arxiv.org/pdf/2605.12856

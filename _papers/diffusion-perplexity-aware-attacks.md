@@ -7,6 +7,11 @@ year: 2026
 date: '2026-10-22'
 order: 1
 group: preprint
+short: "Perplexity-Aware Attacks"
+image: /images/papers/diffusion-perplexity-aware-attacks.webp
+topics: ["tail-risk"]
+tags: ["Black-Box LLMs", "Rare-Event Simulation", "Diffusion LMs"]
+tldr: "Replaces the random latent-to-text mapping of continuous-space black-box attacks with a diffusion language model, so attack prompts read naturally (perplexity 3–5 instead of 10³–10⁷) and risk estimates rest on natural prompts."
 selected: true
 note: under submission
 arxiv: '2610.31558'

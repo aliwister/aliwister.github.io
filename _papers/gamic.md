@@ -8,6 +8,10 @@ year: 2025
 date: '2025-11-01'
 order: 9
 group: conference
+short: "GAMIC"
+image: /images/papers/gamic.webp
+topics: ["icl"]
+tags: ["Graph Learning", "RAG"]
 selected: true
 tldr: Graph-based RAG in-context example selection for molecular learning with LLMs.
 arxiv: '2502.05414'

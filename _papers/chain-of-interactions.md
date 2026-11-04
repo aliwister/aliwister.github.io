@@ -7,6 +7,11 @@ year: 2025
 date: '2025-11-01'
 order: 10
 group: conference
+short: "Chain-of-Interactions"
+image: /images/papers/chain-of-interactions.webp
+topics: ["icl"]
+tags: ["Summarization"]
+tldr: "A multi-step in-context framework that extracts, self-corrects and evaluates to summarize customer-service dialogues with fewer hallucinations and omissions."
 doi: 10.18653/v1/2025.findings-emnlp.191
 conference: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
 pdf: https://aclanthology.org/2025.findings-emnlp.191.pdf
