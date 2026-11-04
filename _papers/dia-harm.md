@@ -7,6 +7,7 @@ year: 2026
 date: '2026-07-01'
 order: 7
 group: conference
+selected: true
 short: "DIA-HARM"
 image: /images/papers/dia-harm.webp
 topics: ["harmful-content"]

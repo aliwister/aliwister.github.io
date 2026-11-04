@@ -7,6 +7,7 @@ year: 2026
 date: '2026-08-08'
 order: 8
 group: conference
+selected: true
 short: "BLUFF"
 image: /images/papers/bluff.webp
 topics: ["harmful-content"]
