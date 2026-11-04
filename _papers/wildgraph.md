@@ -10,7 +10,7 @@ order: 12
 group: conference
 short: "WildGraph"
 image: /images/papers/wildgraph.webp
-topics: ["trajectories"]
+topics: ["geo-graph"]
 tags: ["Generative Models", "Graph Learning"]
 selected: true
 tldr: An encoder–decoder with attention over graph-based embeddings generates long-horizon trajectories from very few samples.

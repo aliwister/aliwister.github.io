@@ -10,7 +10,7 @@ order: 5
 group: conference
 short: "Contamination-Resistant Benchmarks"
 image: /images/papers/contamination-resistant-benchmarks.webp
-topics: ["reliable-eval"]
+topics: ["pretraining-safety"]
 tags: ["Benchmarks"]
 tldr: "Argues that LLM benchmarks should be unlearnable yet still support inference, using the asymmetry between how Transformers train and how they infer."
 selected: true

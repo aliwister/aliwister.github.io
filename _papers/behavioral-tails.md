@@ -9,7 +9,7 @@ order: 2
 group: preprint
 short: "Behavioral Tails"
 image: /images/papers/behavioral-tails.webp
-topics: ["tail-risk"]
+topics: ["blackbox-safety"]
 tags: ["Black-Box LLMs", "Rare-Event Simulation"]
 tldr: "RareTrap estimates the probability of rare, severe behaviors in black-box LLMs, including GPT-5.4 and Claude Sonnet 4.6, with as few as 200 evaluations, using a geometry-aware prompt distribution and sequential rare-event simulation."
 selected: true

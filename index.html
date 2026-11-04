@@ -55,17 +55,16 @@ layout: default
 
 {% assign papers = site.papers | sort: "order" %}
 <section id="research" class="section">
-  <h2 class="section-title">Research</h2>
+  <h2 class="section-title">Research Interests</h2>
   {% for th in site.data.topics.themes %}
   <div class="theme">
-    <p class="theme-head"><strong>{{ th.name }}</strong>, {{ th.blurb }}.</p>
+    <p class="theme-head"><strong>{{ th.name }}</strong>{% if th.dates %}<span class="theme-dates">{{ th.dates }}</span>{% endif %}</p>
     <ul class="theme-topics">
       {% for t in th.topics %}
-      {% assign tp = papers | where_exp: "p", "p.topics contains t.key" %}
       <li style="--h: {{ t.hue }}">
-        <a class="topic-name" href="{{ '/' | relative_url }}?topic={{ t.key }}#publications" data-topic="{{ t.key }}">{{ t.name }}</a>,
-        {{ t.desc }}:
-        {% for p in tp %}<a href="{{ p.url | relative_url }}">{{ p.short }}{% if p.group != "preprint" %} ({{ p.venue }}){% endif %}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+        <a class="topic-name" href="{{ '/' | relative_url }}?topic={{ t.key }}#publications" data-topic="{{ t.key }}">{{ t.name }}</a>:
+        {{ t.desc }}.
+        <span class="theme-refs">{% assign sep = "" %}{% for slug in t.papers %}{% assign p = papers | where: "slug", slug | first %}{% if p %}{{ sep }}<a class="theme-ref" href="{{ p.url | relative_url }}">{{ p.short }}{% if p.group != "preprint" %} ({{ p.venue }}){% endif %}</a>{% assign sep = ", " %}{% endif %}{% endfor %}{% for x in t.extra %}{{ sep }}<a class="theme-ref" href="{{ x.url }}">{{ x.name }}</a>{% assign sep = ", " %}{% endfor %}</span>
       </li>
       {% endfor %}
     </ul>
@@ -112,7 +111,7 @@ layout: default
       {% for t in th.topics %}{% assign c = papers | where_exp: "p", "p.topics contains t.key" %}<a class="chip-topic" style="--h: {{ t.hue }}" href="{{ '/' | relative_url }}?topic={{ t.key }}#publications" data-topic="{{ t.key }}">{{ t.name }} <span class="count">({{ c.size }})</span></a>{% endfor %}
     </div>
     {% endfor %}
-    <span class="tf-label">Methods</span>
+    <span class="tf-label">Topics</span>
     <div class="tf-chips">
       {% for g in site.data.topics.tags %}{% assign c = papers | where_exp: "p", "p.tags contains g" %}{% if c.size > 0 %}<a class="chip-tag" href="{{ '/' | relative_url }}?tag={{ g | url_encode }}#publications" data-tag="{{ g }}">{{ g }} <span class="count">({{ c.size }})</span></a>{% endif %}{% endfor %}
     </div>

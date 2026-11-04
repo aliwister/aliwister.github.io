@@ -10,7 +10,7 @@ group: conference
 selected: true
 short: "DIA-HARM"
 image: /images/papers/dia-harm.webp
-topics: ["harmful-content"]
+topics: ["blackbox-safety"]
 tags: ["Benchmarks", "Multilingual"]
 tldr: "A 195K-sample benchmark across 50 English dialects showing that disinformation detectors degrade on human-written dialectal text, which can disadvantage hundreds of millions of non-SAE speakers."
 award: Best Social Impact Paper

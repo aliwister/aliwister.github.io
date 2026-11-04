@@ -9,8 +9,8 @@ order: 6
 group: conference
 short: "mRAG Privacy"
 image: /images/papers/multimodal-rag-privacy.webp
-topics: ["privacy"]
-tags: ["RAG", "Membership Inference"]
+topics: ["mm-privacy"]
+tags: ["Privacy", "RAG", "Membership Inference"]
 selected: true
 tldr: We evaluate VLM privacy risk to membership inference and retrieval attacks under novel settings, such as transformed images.
 arxiv: '2601.17644'

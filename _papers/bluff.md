@@ -10,7 +10,7 @@ group: conference
 selected: true
 short: "BLUFF"
 image: /images/papers/bluff.webp
-topics: ["harmful-content"]
+topics: []
 tags: ["Benchmarks", "Multilingual", "LLM Agents"]
 tldr: "A 202K-sample benchmark for detecting false and synthetic content in 79 languages, where state-of-the-art detectors lose up to 25.3% F1 on low-resource languages."
 arxiv: '2603.00634'

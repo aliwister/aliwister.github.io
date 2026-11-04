@@ -9,7 +9,7 @@ order: 13
 group: workshop
 short: "WildGEN"
 image: /images/papers/wildgen.webp
-topics: ["trajectories"]
+topics: ["geo-graph"]
 tags: ["Generative Models"]
 tldr: "A VAE-based framework that learns the long-horizon movement of wild geese from a sparse set of real trajectories and generates new ones."
 arxiv: '2401.05421'

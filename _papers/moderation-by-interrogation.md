@@ -9,7 +9,7 @@ order: 3
 group: preprint
 short: "Bot-Mod"
 image: /images/papers/moderation-by-interrogation.webp
-topics: ["agent-safety"]
+topics: ["blackbox-safety"]
 tags: ["LLM Agents", "Bayesian Inference", "Benchmarks"]
 tldr: "Bot-Mod questions an agent before ruling on its post and infers its hidden intent by Bayesian updating over diagnostic probes, beating content-only moderators and LLM judges on the new Molt-Intent dataset."
 selected: true
