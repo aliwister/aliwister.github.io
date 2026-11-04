@@ -8,11 +8,16 @@ themes:
     label: AI safety
     dates: Aug 2025 – Present
     topics:
-      - key: blackbox-safety
-        name: Black-Box Safety Evaluation
-        desc: projection- and diffusion-based methods that estimate rare LLM failures from black-box access, dialect-based jailbreaks, and a multi-turn dialogue method for hidden-intent detection
+      - key: ai-safety
+        name: AI Safety
+        desc: projection- and diffusion-based methods that estimate rare LLM failures from black-box access, dialect-based jailbreaks, and detecting deception by LLM agents that conceal their intent
         hue: 0
         papers: [behavioral-tails, diffusion-perplexity-aware-attacks, dia-harm, moderation-by-interrogation]
+      - key: interpretability
+        name: Interpretability
+        desc: inferring what an LLM agent is actually pursuing, through a multi-turn dialogue method that interrogates it and reads its hidden intent from its answers
+        hue: 300
+        papers: [moderation-by-interrogation]
       - key: pretraining-safety
         name: Pretraining Safety
         desc: contamination-resistant LLM benchmarks built on Transformer asymmetry and dynamic graph construction, and ali-llm, an open testbed for safe curriculum pretraining
